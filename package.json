@@ -1,0 +1,23 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "CL inventory tacker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awb305/bamazon.git"
+  },
+  "author": "Andrew Bass",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "6.0.0",
+    "mysql":"2.15.0"
+  },
+  "bugs": {
+    "url": "https://github.com/awb305/bamazon/issues"
+  },
+  "homepage": "https://github.com/awb305/bamazon#readme"
+}
