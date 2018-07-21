@@ -59,7 +59,6 @@ function purchase() {
         },
         function(err, res) {
           if (err) throw err;
-          console.log(res);
 
           let inventory = res[0].stock_quantity;
           let price = res[0].price; 
@@ -78,7 +77,7 @@ function purchase() {
 
 function fullfillment(item_id, units, inventory, price) {
   let stock_quantity = inventory - units;
-  console.log(item_id, inventory, units);
+
 
   db.query(
     "UPDATE products SET ? WHERE ?",
